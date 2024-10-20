@@ -19,8 +19,8 @@ map:
   - all_addon_configs:rw
   - backup:rw
   - homeassistant_config:rw
-  - media:rw
-  - share:rw
+  - media:rshare
+  - share:rshare
   - ssl:ro
 options:
   jobs:
