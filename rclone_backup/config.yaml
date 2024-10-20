@@ -10,7 +10,7 @@ arch:
   - amd64
   - i386
 init: false
-url: https://github.com/jcwillox/hassio-rclone-backup
+url: https://github.com/timgreen/hassio-rclone-backup
 homeassistant_api: true
 ingress: true
 panel_icon: mdi:cloud-sync
@@ -64,7 +64,7 @@ schema:
   no_unrename: bool?
   no_slugify: bool?
   log_level: list(debug|info|warning|error|fatal)?
-image: ghcr.io/jcwillox/hassio-rclone-backup/{arch}
+image: ghcr.io/timgreen/hassio-rclone-backup/{arch}
 devices:
   - /dev/fuse
 privileged:
