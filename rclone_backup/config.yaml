@@ -64,7 +64,6 @@ schema:
   no_unrename: bool?
   no_slugify: bool?
   log_level: list(debug|info|warning|error|fatal)?
-image: ghcr.io/timgreen/hassio-rclone-backup/{arch}
 devices:
   - /dev/fuse
 privileged:
